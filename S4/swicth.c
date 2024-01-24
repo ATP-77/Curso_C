@@ -35,7 +35,7 @@ int main() {
 
     
     default:
-        printf("Valor invalido!");
+        printf("Valor invalido!\n");
         break;
     }
 
