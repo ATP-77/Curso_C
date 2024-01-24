@@ -11,13 +11,13 @@ int main()
     float nota4;
 
 
-    printf("Digite um numero inteiro: ");
+    printf("Digite as notas em sequencia : ");
     scanf("%f%f%f%f", &nota1,&nota2,&nota3,&nota4);
 
     float media;
     media = (nota1 + nota2 + nota3 + nota4)/4;
 
-    printf("A média das notas é: %f \n", media);
+    printf("A média das notas é: %.2f \n", media);
 
     return 0;
 }
