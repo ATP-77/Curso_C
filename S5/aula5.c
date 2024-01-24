@@ -2,6 +2,8 @@
 Faça uma programa no qual receba 5 (for) numeros  inteiros 
 até que a entrada seja 0
 
+Numeros fixos de parada!!
+
 */
 
 #include <stdio.h>
