@@ -14,10 +14,10 @@ int main()
     
     else if (idade > 18  && idade < 60){
 
-        printf("Você é adulto!! \n");
+        printf("Você é um adulto!! \n");
     }
     else {
-        printf("\nVocê é idoso!\n");
+        printf("\nVocê é um idoso!\n");
     }
     
     
