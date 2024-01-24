@@ -1,6 +1,7 @@
 /* Estruturas de reptição: For, While, do while
 Faça uma programa no qual receba 5 (for) numeros  inteiros 
 até que a entrada seja 0
+
 */
 
 #include <stdio.h>
