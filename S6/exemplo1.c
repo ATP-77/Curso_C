@@ -5,20 +5,20 @@
 int main () {
 
     // Inteiro:
-    float nota1, nota2;  // 1, 2, 3, 1245....
+    double nota1, nota2;  // 1, 2, 3, 1245....
 
     // Reais:
     float media;  // 1.23, 1.45 ...
 
     printf("Qual a primeira nota?\n");
-    scanf("%f", &nota1);
+    scanf("%lf", &nota1); // %lf -> tipo de dado double
 
     printf("Qual a segunda nota?\n");
-    scanf("%f", &nota2);
+    scanf("%lf", &nota2);  // %lf -> tipo de dado double
 
     media = (nota1 + nota2) * 0.5;
 
-    printf("Sua media é %.1f\n", media);
+    printf("Sua media é %.1lf\n", media);  // %lf -> tipo de dado double
 
     return 0;
 }
