@@ -1,5 +1,8 @@
+#Tudo negado!
 *
-
+#Excessão para arquivos terminados em .c
 !*.c
+#Excessão para arquivos terminados em .h
 !*.h
+#Excessão para subdiretórios
 !*/
