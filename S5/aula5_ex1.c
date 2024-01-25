@@ -6,14 +6,21 @@ maiores que 0.
 
 int main() {
 
-    int numero = 3;
-    int multiplos = 1;
+    int numero = 1;
+    int contador = 0;
 
-    for (int i = 1; i< 6; i++) {
+    printf("Multiplos de três: \n");
+    while (contador < 5) {
+        if (numero % 3 == 0){
+            printf("O numero %d é multiplo de três!\n", numero);
+            contador = contador + 1;
+        }
+        numero = numero + 1;
+    }
+    
 
-        multiplos = numero * i;
-        printf("Os multiplos de tres são: %d\n", multiplos);
 
+        return 0;
     }
 
     
@@ -22,5 +29,4 @@ int main() {
 
 
 
-    return 0;
-}
+    
