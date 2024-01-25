@@ -13,6 +13,7 @@ int main () {
     printf("Qual é o seu nome? \n");
     //gets(nome);  // Funcao insegura  -> fgets
     fgets(nome, 49, stdin);  
+    // fgets(variavel, tamanho, origem(stdin -> teclado))
 
     printf("Seu nome é %s\n", nome);
 
