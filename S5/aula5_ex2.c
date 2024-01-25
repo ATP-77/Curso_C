@@ -5,24 +5,15 @@ seu valor na tela, até que seu valor seja 100000 (cem mil). */
 
 int main () {
 
-    int somatorio =0;
-    int numero =0;
-    printf("Informe um numero: ");
-    scanf("%d", &numero);
 
-    for (int i = 0; i < 100001; i+=100) {
 
-        somatorio = i + numero;
-        printf("Somatório: %d\n", somatorio);
+    for (int numero = 0; numero < 100001; numero +=100) {
+
         
-
-
+        printf("O valor é numero: %d\n", numero);
+       
 
     }
-    
-
+   
     return 0;
-
-
-
 }
