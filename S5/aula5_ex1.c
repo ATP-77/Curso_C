@@ -9,7 +9,7 @@ int main() {
     int numero = 1;
     int contador = 0;
 
-    printf("Multiplos de três: \n");
+    printf("Apresentando os multiplos de três: \n");
     while (contador < 5) {
         if (numero % 3 == 0){
             printf("O numero %d é multiplo de três!\n", numero);
@@ -18,12 +18,8 @@ int main() {
         numero = numero + 1;
     }
     
-
-
         return 0;
     }
-
-    
 
 
 
