@@ -19,8 +19,6 @@ int main () {
     for (int i = 97; i <= 122; i++) {
         letras[contador] = i;
         contador  = contador + 1;
-
-
     }
 
     // Imprimindo as letras e seus valores em decimal:
@@ -29,9 +27,6 @@ int main () {
         printf("%d == %c \n", letras[i], letras[i]);
     }
 
-
-
-
     // vetores de inteiros
 
     int numeros [10];
@@ -39,9 +34,6 @@ int main () {
     //vetores e reais:
 
     float valores [5];
-
-
-
 
     return 0;
 
