@@ -16,8 +16,6 @@ int main() {
 
         }
 
-        
-
     }else{
         printf("Nao foi possivel criar o arquivo!");
     }
