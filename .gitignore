@@ -1,5 +1,8 @@
 #Tudo negado!
 *
+
+*.json
+
 #Excessão para arquivos terminados em .c
 !*.c
 #Excessão para arquivos terminados em .h
@@ -7,4 +10,3 @@
 #Excessão para subdiretórios
 !*/
 
-*.json
